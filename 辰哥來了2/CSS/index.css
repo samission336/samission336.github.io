@@ -1,0 +1,132 @@
+/*.spinner { 
+  width: 60px; 
+  height: 60px; 
+  margin: 60px; 
+  animation: rotate 1.4s infinite ease-in-out, background 1.4s infinite ease-in-out alternate; 
+  }
+
+ @keyframes rotate { 0% { transform: perspective(120px) rotateX(0deg) rotateY(0deg); } 50% { transform: perspective(120px) rotateX(-180deg) rotateY(0deg); } 100% { transform: perspective(120px) rotateX(-180deg) rotateY(-180deg); } } @keyframes background { 0% { background-color: #27ae60; } 50% { background-color: #9b59b6; } 100% { background-color: #c0392b; } }
+
+ */
+
+ /*#top-bar{
+	 width:100%;
+	 height:50px;
+	 background:#32b3bf;
+	 position:fixed;
+	 top:-65px;
+		 
+	-webkit-box-shadow: 0px 8px 15px #333;
+	-moz-box-shadow: 0px 8px 15px #333;
+	box-shadow: 0px 8px 15px #333;	 
+}*/
+ 
+ .navcss {
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+    z-index:100;
+
+    /* CSS3 陰影*/
+    /*-webkit-box-shadow: 0px 4px 7px #333;
+	  -moz-box-shadow: 0px 4px 7px #333;
+	  box-shadow: 0px 4px 7px #333;	 */
+} 
+
+ /*.Carouselcss {
+    position: absolute;
+    top:0;   
+
+} */
+
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    /*.carousel .container {
+      position: relative;
+      z-index: 9;
+    }*/
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: relative;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 650px;
+    }
+
+    /*.carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 10px;
+    }*/
+    .carousel-caption {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+    }
+
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    .distance{
+    margin-top: 20px
+
+    }
+
+    /*footer*/
+
+
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding-top: 30px;
+    margin-top: 20px
+   }
+
+
+    footer .copyRight {
+    background-color: #000;
+    color: #9d9d9d;
+    font-size: 12px;
+    line-height: 52px;
+    height: 46px;
+  }
+
+  /*footer*/

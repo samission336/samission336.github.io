@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="..\CSS\index.css">
-    
+    <!--<link rel="stylesheet" type="text/css" href="https://cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css" />-->
 
   </head>
   <body>
@@ -41,16 +41,19 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#introduction">introduction</a>
+                  <a class="nav-link" href="#introduction">Introduction</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#picture">picture</a>
+                  <a class="nav-link" href="#picture">Pictures</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#article">article</a>
+                  <a class="nav-link" href="#chart">Highcharts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#">log in</a>
+                  <a class="nav-link" href="#article">Article</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Log in</a>
                 </li>
             </ul>
             <!-- <form class="form-inline my-2 my-lg-0">
@@ -75,17 +78,17 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="http://lorempixel.com/1280/500/technics" alt="First slide">
+            <img class="d-block w-100" src="..\Images\sea2.jpg" alt="First slide">
             <div class="carousel-caption">
                 <h1>head1</h1>
                 <p class="leader">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab suscipit illo eos eaque molestiae accusamus praesentium placeat illum deleniti quasi iusto earum, voluptatum nisi dicta rerum vero iure culpa cum?</p>             
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="http://lorempixel.com/1280/500/nightlife" alt="Second slide">
+            <img class="d-block w-100" src="..\Images\sunset.jpg" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="http://lorempixel.com/1280/500/abstract" alt="Third slide">
+            <img class="d-block w-100" src="..\Images\planet.jpg" alt="Third slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -104,7 +107,7 @@
 
     <!--影片介紹開始-->
 
-    <section id ="introduction">
+    <section id ="introduction" style="padding:65px ">
     <div class ="container">
         <dive class="row">
             <div class="col-xs-12 col-sm-6">
@@ -126,47 +129,82 @@
 
     <!--相片集開始-->
 
-    <section id ="picture" class = "gray-section">
-    <div class ="container distance ">
+    <section id ="picture" class = "gray-section section-range">
+    <div class ="container">
         
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-lg-12 text-center" style="margin-bottom: 30px">
               <h2>相片集</h2>
             </div>
         </div>     
 
         <div class="row">
     
-            <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-              <a class="thumbnail" href="#">
-              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
-              </a>
-            </div>        
-            <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-              <a class="thumbnail" href="#">
-              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
-              </a>
-            </div>        
-            <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-              <a class="thumbnail" href="#">
-              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
-              </a>
-            </div>        
-            <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-              <a class="thumbnail" href="#">
-              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
-              </a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+            <div class="col-lg-4 col-md-4 col-xs-4 thumb" style="margin-top:15px">
               <a class="thumbnail" href="#">
               <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
               </a>
             </div>                
-            <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+            <div class="col-lg-4 col-md-4 col-xs-4 thumb" style="margin-top:15px">
               <a class="thumbnail" href="#">
               <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
               </a>
             </div>  
+            <div class="col-lg-4 col-md-4 col-xs-4 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>        
+            <div class="col-lg-3 col-md-3 col-xs-3 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>        
+            <div class="col-lg-3 col-md-3 col-xs-3 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>        
+            <div class="col-lg-3 col-md-3 col-xs-3 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-xs-2 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-xs-2 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-xs-2 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-xs-2 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-xs-2 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-xs-2 thumb" style="margin-top:15px">
+              <a class="thumbnail" href="#">
+              <img class="img-thumbnail" src="http://placehold.it/400x300" alt="">
+              </a>
+            </div>
 
         </div> 
     </div>    
@@ -176,32 +214,61 @@
 
 
 
-    <!--精選文章-->
+    <!--圖表展示開始-->
 
-    <section id ="article">
-    <div class ="container distance">
+    <section id="chart" class="section-range">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="margin-bottom: 30px">
+                    <h2>Highcharts</h2>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <div id="container1" style="border:8px	aliceblue groove; padding:15px "></div>
+                </div>
+            </div>
+            <div class="row"style="padding-top:20px">
+                <div class="col-xs-6 col-sm-6">
+                    <div id="container2" style="width: 400px; height: 400px; margin: 0 auto"></div>
+                </div>
+                <div class="col-xs-6 col-sm-6" style="height: 400px; min-width: 310px">
+                    <div id="container3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--圖表展示結束-->
+
+
+
+    <!--精選文章開始-->
+
+    <section id ="article" class = "gray-section section-range">
+    <div class ="container">
         
         <div class="row">
-            <dive class="col-xs-12">
+            <div class="col-lg-12 text-center" style="margin-bottom: 30px">
               <h2>精選文</h2>
-            </dive>
+            </div>
         </div>  
 
         <div class="row">
             
-            <div class="col-xs-6 col-md-4">
+            <div class="col-xs-12 col-md-12 text-center">
               <img class="img-circle" data-src="http://placehold.it/140/">
               <h2>Heading</h2>
-              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias sequi dignissimos totam! Numquam iusto nihil magni aut, hic in voluptates at ratione, illum recusandae deleniti cum quis. Quae illum ut asperiores, nobis harum sint vero neque eum reiciendis accusamus laudantium obcaecati libero vel eos atque odit necessitatibus. Magni, ab perspiciatis!</p>
               <p><a class="btn" href="#">View details »</a></p>
             </div><!-- /.span4 -->
-            <div class="col-xs-6 col-md-4">
+            <div class="col-xs-6 col-md-6">
               <img class="img-circle" data-src="http://placehold.it/140/">
               <h2>Heading</h2>
               <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
               <p><a class="btn" href="#">View details »</a></p>
             </div><!-- /.span4 -->
-            <div class="col-xs-6 col-md-4">
+            <div class="col-xs-6 col-md-6">
               <img class="img-circle" data-src="http://placehold.it/140/">
               <h2>Heading</h2>
               <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -212,44 +279,49 @@
     </div>    
     </section>     
 
+    <!-- 精選文章結束 -->
+
+
+
+
     <!-- footer開始 -->
 
     <footer data-no-turbolink>
-  <div class="container">
-    <div class="row">
-      <div class="footerAbout col-xs-12 col-sm-4">
-        <h3>Back to</h3>
-        <ul class="list-unstyled">
-          <li><a href="#">Top</a></li>
-          <li><a href="#introduction">Introduction</a></li>
-          <li><a href="#picture">Picture</a></li>
-          <li><a href="#article">Ariticle</a></li>
-          <!--clss括號內加 target="_blank" 為開新分頁-->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+              <div class="col-xs-12 col-sm-12" >
+                <h3>Back to</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">Top</a></li>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#picture">Pictures</a></li>
+                    <li><a href="#chart">Highcharts</a></li>
+                    <li><a href="#article">Article</a></li>
+                    <!--clss括號內加 target="_blank" 為開新分頁-->
+                </ul> 
+              </div>
+              <div class="col-xs-12 col-sm-12" >
+                <h3>Contact me</h3>
+                <ul class="list-unstyled">
+                    <li><a class="disabled" href="#">Email</a></li>
+                    <li><a class="disabled" href="#">Facebook</a></li>
+                    <li><a class="disabled" href="#">Twitter</a></li>
+                    <li><a class="disabled" href="#">Plurk</a></li>
+                </ul>
+              </div>
+          </div>
+
+        </div>
       </div>
-      <div class="footerFollow col-xs-12 col-sm-4">
-        <h3>Contact me</h3>
-        <ul class="list-unstyled">
-          <li><a class="disabled" href="#">Email</a></li>
-          <li><a class="disabled" href="#">Facebook</a></li>
-          <li><a class="disabled" href="#">Twitter</a></li>
-          <li><a class="disabled" href="#">Plurk</a></li>
-        </ul>
+
+      <div class="copyRight">
+        <!--<p class="text-center">Copyright © <a href="">...</a> 2015</p>-->
       </div>
-      
 
-    </div>
-  </div>
+    </footer>
 
-  <div class="copyRight">
-    <!--<p class="text-center">Copyright © <a href="">...</a> 2015</p>-->
-
-  </div>
-
-
-</footer>
-
-
- <!-- footer開始 -->
+    <!-- footer結束 -->
 
 
 
@@ -265,9 +337,27 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script src="..\Javascript\index.js"></script>
+
+    <!--highcharts-->
+
+    <script src="http://cdn.hcharts.cn/highstock/highstock.js"></script> 
+    <script src="http://cdn.hcharts.cn/highmaps/modules/map.js"></script>
+    <!--chart,stock,map 同時引入方式參考:https://www.hcharts.cn/docs/start-download#h3-5 -->
+
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+
+
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+
+
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
 
     
   </body>
